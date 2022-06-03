@@ -1,0 +1,15 @@
+.shell{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.left, .center, .right{
+    padding-top: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+}
